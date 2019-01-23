@@ -6,6 +6,7 @@
   height: 540px; /* Full-height: remove this if you want "auto" height */
   width: 210px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  background-color: #f1f1f1;
 }
 
 #menu {
@@ -29,17 +30,20 @@
   color: white;
 }
 
-.active {
-  background-color: #555;
-  color: white;
-}
-
 #content {
   border-left: 2px solid grey;
   margin-left: 210px;
   width: 960px;
   height: 540px;
   padding-left: 15px;
+  position: relative;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.active {
+  background-color: #555;
+  color: white;
 }
 
 .App-logo {
